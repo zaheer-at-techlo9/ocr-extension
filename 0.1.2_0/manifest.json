@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+
+   },
+   "description": "A powerful optical character recognition (OCR) extension to capture and convert images to text",
+   "homepage_url": "https://add0n.com/ocr.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "19": "data/icons/19.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "38": "data/icons/38.png",
+      "48": "data/icons/48.png",
+      "512": "data/icons/512.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZyfA7/Eeo2RToNyr3tyNNhXC5bJS4jwGUZpzoDX7xDM1PViS6zJQEHE4VfVinwK1zMcLehnQj0tOO5ejjwkllbzi7493FhvRhqpUXZc6Tbzwt8sdui3sb0vatBe9ZAhaojp/dGU61GMxbDduhWj4vGzV1+rs1UE8+9hoHnQC0IeX6AzGvgksO5wfLhr4tSUjxtCDoAHsZdSwCFXBSSR9ff/wCz1qk5yK/2Bz3Z/T1ltOeOak85uNYt4mOy3QwMv5p7A7Im9pgIoQeNecks91wQccYHfAxWnLF3uhqgUW8ISnE68+B1VdNjDA8jkhkne7KT/9AYdsHJ97K9qskcLGwIDAQAB",
+   "manifest_version": 2,
+   "name": "OCR - Image Reader",
+   "permissions": [ "storage", "activeTab", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2",
+   "web_accessible_resources": [ "data/ui/index.html" ]
+}
